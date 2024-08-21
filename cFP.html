@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de la Función Pulmonar</title>
+    <link rel="stylesheet" href="cssCFP.css">
+    <script src="jscFP.js" defer></script>
+</head>
+<body>
+    <h1>Clasificación de la Función Pulmonar</h1>
+    <p>Ingrese el volumen espiratorio forzado en el primer segundo (VEF1) para clasificar la función pulmonar.</p>
+    
+    <label for="vef1">VEF1 (% del valor predicho): </label>
+    <input type="number" id="vef1">
+    <br><br>
+    
+    <input type="button" value="Evaluar" onclick="clasificarFuncionPulmonar()">
+    <input type="reset" value="Borrar" onclick="limpiarFormulario()">
+    
+    <p id="resultado"></p>
+</body>
+</html>

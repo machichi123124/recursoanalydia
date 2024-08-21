@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Clasificación del Estado Nutricional</title>
+    <link rel="stylesheet" type="text/css" href="cssEN.css">
+    <script type="text/javascript" src="./En.js"></script>
+</head>
+<body>
+    <h1>Clasificación del Estado Nutricional</h1>
+    <p>Introduzca el Índice de Masa Corporal (IMC) para determinar el estado nutricional del paciente.</p>
+    <label>Introduzca el IMC del paciente: </label>
+    <input type="number" id="IMC" step="0.1">
+    <br><br>
+    <input type="button" id="Calcula" value="Clasificar" onclick="clasificarEstadoNutricional()">
+    <input type="reset" id="limpia" value="Cancelar" onclick="limpiarFormulario()">
+    <p id="Resultado"></p>
+</body>
+</html>

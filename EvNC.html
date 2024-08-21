@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación del Nivel de Colesterol</title>
+    <link rel="stylesheet" href="cssRenal.css">
+    <script src="jsEvNC.js" defer></script>
+</head>
+<body>
+    <h1>Evaluación del Nivel de Colesterol</h1>
+    <p>Ingrese el nivel de colesterol en sangre para evaluar su estado.</p>
+    
+    <label for="colesterol">Nivel de colesterol (mg/dL): </label>
+    <input type="number" id="colesterol">
+    <br><br>
+    
+    <input type="button" value="Evaluar" onclick="evaluarColesterol()">
+    <input type="reset" value="Resetear" onclick="limpiarFormulario()">
+    
+    <p id="resultado"></p>
+</body>
+</html>

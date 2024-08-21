@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #007acc;
+}
+
+label, input {
+    font-size: 1.2em;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input[type="button"], input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="button"]:hover, input[type="reset"]:hover {
+    background-color: #005f99;
+}
+
+p#resultado {
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #007acc;
+}

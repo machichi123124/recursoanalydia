@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación de la Saturación de Oxígeno</title>
+    <link rel="stylesheet" href="cssEsO.css">
+    <script src="jsEsO.js" defer></script>
+</head>
+<body>
+    <h1>Evaluación de la Saturación de Oxígeno</h1>
+    <p>Ingrese la saturación de oxígeno en sangre para evaluar su estado.</p>
+    
+    <label for="oxigeno">Saturación de oxígeno (%): </label>
+    <input type="number" id="oxigeno">
+    <br><br>
+    
+    <input type="button" value="Evaluar" onclick="evaluarSaturacion()">
+    <input type="reset" value="Resetear" onclick="limpiarFormulario()">
+    
+    <p id="resultado"></p>
+</body>
+</html>

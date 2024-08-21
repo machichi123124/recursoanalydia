@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación del Riesgo Cardiovascular</title>
+    <link rel="stylesheet" href="cssEvRC.css">
+    <script src="jsEvRC.js" defer></script>
+</head>
+<body>
+    <h1>Evaluación del Riesgo Cardiovascular</h1>
+    <p>Ingrese la presión arterial sistólica para evaluar el riesgo cardiovascular.</p>
+    
+    <label for="presion">Presión arterial sistólica (mm Hg): </label>
+    <input type="number" id="presion">
+    <br><br>
+    
+    <input type="button" value="Evaluar" onclick="evaluarRiesgo()">
+    <input type="reset" value="Borrar" onclick="limpiarFormulario()">
+    
+    <p id="resultado"></p>
+</body>
+</html>

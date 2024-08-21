@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Cálculo de la Dosis de Medicación</title>
+    <link rel="stylesheet" type="text/css" href="cssDosis.css">
+    <script type="text/javascript" src="./jsDosis.js"></script>
+</head>
+<body>
+    <h1>Cálculo de la Dosis de Medicación</h1>
+    <p>Calcule la dosis total de medicación en función del peso del paciente y la dosis recomendada en mg/kg.</p>
+    
+    <label>Introduzca el Peso del paciente (kg): </label>
+    <input type="number" id="Peso" step="0.1">
+    <br><br>
+    <label>Introduzca la Dosis recomendada (mg/kg): </label>
+    <input type="number" id="DosisRecomendada" step="0.1">
+    <br><br>
+    <input type="button" id="Calcula" value="Calcular Dosis" onclick="calcularDosis()">
+    <input type="reset" id="limpia" value="Cancelar" onclick="Borrar()">
+    
+    <p id="Resultado"></p>
+</body>
+</html>

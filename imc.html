@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Cálculo del Índice de Masa Corporal (IMC)</title>
+    <link rel="stylesheet" type="text/css" href="cssImc.css">
+    <script type="text/javascript" src="./jsImc.js"></script>
+</head>
+<body>
+    <h1>Cálculo del Índice de Masa Corporal (IMC)</h1>
+    <p>Crear un algoritmo para calcular el Índice de Masa Corporal (IMC) de un paciente en función de su peso y altura.</p>
+    
+    <label>Introduzca el Peso (kg): </label>
+    <input type="number" id="Peso" step="0.1">
+    <br><br>
+    <label>Introduzca la Altura (m): </label>
+    <input type="number" id="Altura" step="0.01">
+    <br><br>
+    <input type="button" id="Calcula" value="Calcular IMC" onclick="calcularIMC()">
+    <input type="reset" id="limpia" value="Cancelar" onclick="Borrar()">
+    
+    <p id="Resultado"></p>
+</body>
+</html>

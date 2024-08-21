@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Cálculo de la Cantidad de Soluto</title>
+    <link rel="stylesheet" type="text/css" href="cssSoluto.css">
+    <script type="text/javascript" src="./jsSoluto.js"></script>
+</head>
+<body>
+    <h1>Cálculo de la Cantidad de Soluto</h1>
+    <p>Calcule la cantidad de soluto necesaria para preparar una solución con una concentración deseada y un volumen final específico.</p>
+    
+    <label>Introduzca la Concentración deseada (mg/L): </label>
+    <input type="number" id="Concentracion" step="0.1">
+    <br><br>
+    <label>Introduzca el Volumen final de la solución (L): </label>
+    <input type="number" id="Volumen" step="0.01">
+    <br><br>
+    <input type="button" id="Calcula" value="Calcular Cantidad de Soluto" onclick="calcularCantidadSoluto()">
+    <input type="reset" id="limpia" value="Cancelar" onclick="Borrar()">
+    
+    <p id="Resultado"></p>
+</body>
+</html>

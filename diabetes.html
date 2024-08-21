@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Clasificación del Riesgo de Diabetes</title>
+    <link rel="stylesheet" type="text/css" href="cssDiabetes.css">
+    <script type="text/javascript" src="./jsDiabetes.js"></script>
+</head>
+<body>
+    <h1>Clasificación del Riesgo de Diabetes</h1>
+    <p>Introduzca el nivel de glucosa en sangre para determinar el riesgo de diabetes del paciente.</p>
+    <label>Introduzca el nivel de glucosa en sangre (mg/dL): </label>
+    <input type="number" id="Glucosa" step="0.1">
+    <br><br>
+    <input type="button" id="Clasificar" value="Clasificar" onclick="clasificarRiesgoDiabetes()">
+    <input type="reset" id="limpiar" value="Cancelar" onclick="limpiarFormulario()">
+    <p id="Resultado"></p>
+</body>
+</html>

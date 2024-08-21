@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Cálculo del Volumen de Líquido a Administrar</title>
+     <link rel="stylesheet" type="text/css" href="cssvolumenLA.css">
+    <script type="text/javascript" src="./jsclv.js"></script>
+</head>
+<body>
+    <h1>Cálculo del Volumen de Líquido a Administrar</h1>
+    <p>Crear un algoritmo para calcular el volumen de un medicamento líquido a administrar a un paciente en función de la dosis prescrita y la concentración del medicamento.</p>
+    
+    <label>Introduzca la Dosis prescrita (mg): </label>
+    <input type="number" id="Dosis">
+    <br><br>
+    <label>Introduzca la Concentración del medicamento (mg/mL): </label>
+    <input type="number" id="Concentracion">
+    <br><br>
+    <input type="button" id="Calcula" value="Procesar" onclick="calcularVolumenLiquido()">
+    <input type="reset" id="limpia" value="Cancelar" onclick="Borrar()">
+    
+    <p id="Resultado"></p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Evaluación de la Función Renal</title>
+    <link rel="stylesheet" type="text/css" href="cssRenal.css">
+    <script type="text/javascript" src="./jsRenal.js"></script>
+</head>
+<body>
+    <h1>Evaluación de la Función Renal</h1>
+    <p>Introduzca la Tasa de Filtración Glomerular (TFG) para determinar la categoría de la función renal del paciente.</p>
+    <label>Introduzca la TFG (mL/min/1.73 m²): </label>
+    <input type="number" id="TFG" step="0.1">
+    <br><br>
+    <input type="button" id="Clasificar" value="Clasificar" onclick="clasificarFuncionRenal()">
+    <input type="reset" id="limpiar" value="Cancelar" onclick="limpiarFormulario()">
+    <p id="Resultado"></p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación del Estado de Hidratación</title>
+    <link rel="stylesheet" href="cssCEH.css">
+    <script src="jsceH.js" defer></script>
+</head>
+<body>
+    <h1>Clasificación del Estado de Hidratación</h1>
+    <p>Ingrese su ingesta diaria de agua para clasificar su estado de hidratación.</p>
+    
+    <label for="agua">Ingesta diaria de agua (litros): </label>
+    <input type="number" id="agua">
+    <br><br>
+    
+    <input type="button" value="Clasificar" onclick="clasificarHidratacion()">
+    <input type="reset" value="Resetear" onclick="limpiarFormulario()">
+    
+    <p id="resultado"></p>
+</body>
+</html>
